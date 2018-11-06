@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Login",
+        "description": "",
+        "id": ";login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15468201472,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Initialize the browser and navigate to http://automationpractice.com/index.php/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com/index.php/",
+                  "offset": 39
+                }
+              ],
+              "location": "Login.initialize_the_browser_and_navigate_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161093,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Username an Password and logs in",
+            "match": {
+              "location": "Login.user_enters_username_an_password_and_logs_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1519897258,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that user is successfully logged in",
+            "match": {
+              "location": "Login.verify_that_user_is_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TestCaseKey\u003dPLAYG-T60"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Login",
+        "description": "",
+        "id": ";login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9148696728,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Initialize the browser and navigate to http://www.yahoo.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.yahoo.com",
+                  "offset": 39
+                }
+              ],
+              "location": "Login.initialize_the_browser_and_navigate_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161540,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Username an Password and logs in",
+            "match": {
+              "location": "Login.user_enters_username_an_password_and_logs_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1220770597,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that user is successfully logged in",
+            "match": {
+              "location": "Login.verify_that_user_is_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TestCaseKey\u003dPLAYG-T60"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Login",
+        "description": "",
+        "id": ";login;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8106114541,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Initialize the browser and navigate to http://www.google.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.google.com",
+                  "offset": 39
+                }
+              ],
+              "location": "Login.initialize_the_browser_and_navigate_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 343160,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Username an Password and logs in",
+            "match": {
+              "location": "Login.user_enters_username_an_password_and_logs_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1388010016,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that user is successfully logged in",
+            "match": {
+              "location": "Login.verify_that_user_is_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TestCaseKey\u003dPLAYG-T60"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Login",
+        "description": "",
+        "id": ";login;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12557633704,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Initialize the browser and navigate to http://www.ibm.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.ibm.com",
+                  "offset": 39
+                }
+              ],
+              "location": "Login.initialize_the_browser_and_navigate_to(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135658,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Username an Password and logs in",
+            "match": {
+              "location": "Login.user_enters_username_an_password_and_logs_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1548289845,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that user is successfully logged in",
+            "match": {
+              "location": "Login.verify_that_user_is_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@TestCaseKey\u003dPLAYG-T60"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/PLAYG-T60.feature"
+  }
+]
