@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| http://www.yahoo.com |" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-11-06T12:22:19" hostname="IBM-OIHalmagyi" time="1.443">
+  <properties/>
+  <testcase name="Given Initialize the browser and navigate to http://www.yahoo.com" classname="| http://www.yahoo.com |" time="0.0"/>
+  <testcase name="When User enters Username an Password and logs in" classname="| http://www.yahoo.com |" time="0.0"/>
+  <testcase name="Then Verify that user is successfully logged in" classname="| http://www.yahoo.com |" time="0.001"/>
+  <testcase name="classMethod" classname="| http://www.yahoo.com |" time="11.522"/>
+  <system-out><![CDATA[Starting Firefox and navigating to the login page.
+]]></system-out>
+  <system-err><![CDATA[1541506930264	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\IBM_AD~1\\AppData\\Local\\Temp\\rust_mozprofile.GIZbSVGf3YwC"
+1541506935836	Marionette	INFO	Listening on port 54899
+1541506935896	Marionette	WARN	TLS certificate errors will be ignored for this session
+Nov 06, 2018 2:22:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

@@ -3,10 +3,10 @@ apply plugin: 'java'
 dependencies {
     testImplementation 'info.cukes:cucumber-java:1.2.5'
     testImplementation 'info.cukes:cucumber-junit:1.2.5'
-//    testImplementation 'info.cukes:cucumber-core:1.2.5'
-//    testImplementation 'info.cukes:cucumber-jvm-deps:1.0.4'
     testImplementation 'org.seleniumhq.selenium:selenium-java:3.141.0'
     testImplementation 'junit:junit:4.12'
+	testImplementation 'com.ibm.mq:com.ibm.mq.allclient:9.0.5.0'
+	testImplementation 'javax.jms:javax.jms-api:2.0.1'
 }
 
 repositories {

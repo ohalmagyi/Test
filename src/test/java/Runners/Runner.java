@@ -9,7 +9,6 @@ import cucumber.api.junit.Cucumber;
 		features = "src/test/java/Features/PLAYG-T60.feature",
 		glue = "Automation",
 		plugin = "json:target/cucumber/LoginResult.json"
-//		junit = "--filename-compatible-names"
 		)
 
 public class Runner {
